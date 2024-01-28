@@ -118,6 +118,9 @@ span {
     color: rgb(3, 32, 42);
 
 }
+.navbar{
+    position: sticky;
+}
 
 
 
@@ -241,4 +244,17 @@ row{
 label{
     color: aliceblue;
     font-size: larger;
+}
+
+/* /************************************************ piping ********************************************* */
+
+.pipingbody{
+    background-image: url(./images/piping\ back.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
