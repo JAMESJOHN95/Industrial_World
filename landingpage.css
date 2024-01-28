@@ -107,17 +107,18 @@ a {
 span {
     font-weight: 700;
 }
-.main{
+
+.main {
     display: flex;
     justify-content: space-between;
 }
 
-.nav-link{
+.nav-link {
     font-weight: 600;
     color: rgb(3, 32, 42);
 
 }
-   
+
 
 
 
@@ -145,16 +146,61 @@ span {
 
 /* ******************************************Footer ********************************************************** */
 
-.linkfooter{
+.linkfooter {
     text-decoration: none;
     color: white;
     line-height: 2px;
 }
-hr{
+
+hr {
     width: 300px;
     color: aliceblue;
 }
-i{
+
+i {
     margin-right: 20px;
     margin-top: 5px;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+/* ***************************************Page 2 ************************************ */
+
+.content {
+    background: rgb(245, 245, 245);
+    background: radial-gradient(circle, rgba(245, 245, 245, 1) 0%, rgba(180, 204, 250, 0.15458683473389356) 100%);
+        /* height: 500px; */
+    width: 80%;
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content_heading {
+    opacity: 1;
+}
+
+.content_para {
+    opacity: 1;
+    width: 60%;
+}
+
+.body_structure {
+    background-image: url(./images/Different-types-of-structures-in-construction-f.webp);
+    background-size: contain;
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.content_grid{
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+row{
+    justify-content: space-evenly;
 }
