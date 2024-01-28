@@ -16,7 +16,7 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="contact_body">
 
     <!--------------------------------------------------------------------NAVBAR--------------------------------------------------------->
 
@@ -34,10 +34,10 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a style="color: rgb(11, 95, 159);" class="nav-link active" aria-current="page"
-                            href="#">Home</a>
+                            href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color: rgb(11, 95, 159);" class="nav-link" href="#">Structure</a>
+                        <a style="color: rgb(11, 95, 159);" class="nav-link" href="./structure.html">Structure</a>
                     </li>
                     <li class="nav-item">
                         <a style="color: rgb(11, 95, 159);" class="nav-link" href="#">Piping</a>
@@ -57,10 +57,18 @@
     <!-- -------------------------------------------------------------------------------------------------------------------------------------------- -->
 
     <div class="form1">
-        <h1>Contact Us</h1>
-        <form action="">
-
-        </form>
+        <h1 style="text-align: center; color: aliceblue;">Contact Us</h1>
+       <div class="form2">
+            <form action="">
+                <label for="">NAME</label><br>
+                <input type="text" placeholder="Enter Your Name" class="form-control" id="nameinput" required><br>
+                <label for="">PHONE NUMBER</label><br>
+                <input type="number" placeholder="Enter Your Phone Number" class="form-control" id="Phoneinput" required maxlength="10"><br>
+                <label for="">EMAIL ID</label><br>
+                <input type="email" placeholder="Enter Your Email ID" class="form-control" id="Emailinput" required>
+            </form>
+       </div><BR></BR>
+       <div class="contact_button"><button onclick="register()" class="buttoncontact">REGISTER</button></div>
 
 
     </div>
@@ -114,5 +122,6 @@
 
 
 </body>
+<script src="./calculation.js"></script>
 
 </html>
