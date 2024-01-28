@@ -1,5 +1,11 @@
-const calculation = ()=>{
-    if(ismb600l.value >=0 && ismb600w.value >=0){
-        ismb600t.value = ismb600l*ismb600w
+const calculation = (e,lengthId, weightId, totalId) => {
+    e.preventDefault()
+    const lengthValue = parseFloat(document.getElementById(lengthId).value);
+    const weightValue = parseFloat(document.getElementById(weightId).value);
+
+    if (!isNaN(lengthValue) && lengthValue >= 0 ) {
+        document.getElementById(totalId).value = lengthValue * weightValue;
+    } else {
+        alert("Please enter valid values for length and weight.");
     }
-}
+    };
